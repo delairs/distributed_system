@@ -2,7 +2,7 @@
 
 python3 peer_node.py \
 	  --name D --listen 0.0.0.0 5002 \
-	  --peers A@localhost:5000 B@localhost:5001 D@localhost:5002 \
-	  --logger localhost 9999 \
+	  --peers A@198.162.122.10:5000 B@198.162.122.11:5001 C@198.162.122.12:5002 D@198.162.122.13 \
+	  --logger 198.162.122.14 9999 \
 	  --offset-ms -600
 
